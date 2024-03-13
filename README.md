@@ -2,9 +2,11 @@
 
 ## Description:
 
-This Python script provides a framework for generating a text embedding data store using LangChain and Chroma. It leverages OpenAI's API to create embeddings for text chunks extracted from Markdown documents within a specified directory.
-This Python application creates a simple question-answering interface using Streamlit, LangChain, Chroma, and OpenAI. It leverages a pre-generated text embedding database (Chroma) to retrieve relevant text chunks for a given query and then formulates a response using OpenAI's Chat model.
+The create_database.py script provides a framework for generating a text embedding data store using LangChain and Chroma. It leverages OpenAI's API to create embeddings for text chunks extracted from Markdown documents within a specified directory.
 
+The app.py application creates a simple question-answering interface using Streamlit, LangChain, Chroma, and OpenAI. It leverages a pre-generated text embedding database (Chroma) to retrieve relevant text chunks for a given query and then formulates a response using OpenAI's Chat model.
+
+Model Used: 'gpt-3.5-turbo'
 
 ## Installation:
 
@@ -63,3 +65,7 @@ Usage:
    - Compose a prompt for OpenAI's Chat model using the retrieved context and query.
    - Generate a response using the Chat model.
    - Display the generated response and the sources of the retrieved text chunks.
+  
+## Working
+
+![alt text](img/1.png)
